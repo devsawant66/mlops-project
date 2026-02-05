@@ -18,8 +18,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          pip install pandas scikit-learn
+        run: pip install pandas scikit-learn
 
       - name: Run Linear Regression Model
         run: python linear_model.py
